@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TimeZone Helper</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div id="app">
+    <div class="header">
+      <h1>🕒 TimeZone Helper</h1>
+      <select id="theme" title="Choose theme">
+        <option value="auto">🌗 Auto</option>
+        <option value="light">☀️ Light</option>
+        <option value="dark">🌙 Dark</option>
+      </select>
+    </div>
+
+    <div id="timezone-list"></div>
+
+    <button id="add-btn">➕ Add timezone</button>
+
+    <div style="text-align: center; margin-top: 16px;">
+      <a href="https://www.buymeacoffee.com/doqi" target="_blank" style="
+        background-color: #FFDD00;
+        padding: 10px 16px;
+        color: #000000;
+        font-family: 'Arial', sans-serif;
+        font-weight: bold;
+        border-radius: 10px;
+        text-decoration: none;
+        display: inline-block;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        transition: background 0.2s;
+      ">
+        ☕ Buy me a coffee
+      </a>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
