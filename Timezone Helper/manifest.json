@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "TimeZone Helper",
     "version": "1.0",
-    "description": "Affiche l'heure en temps réel de plusieurs fuseaux horaires.",
+    "description": "Displays the current time for multiple time zones in real time.",
     "action": {
       "default_popup": "popup.html",
       "default_icon": {
